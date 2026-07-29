@@ -22,5 +22,5 @@ typedef struct{
     int pessoaID;
     int filmeID;
     Papel papel;
-    char personagem[50];
+    char *personagem;
 }Relacionamento;
